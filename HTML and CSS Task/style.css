@@ -84,17 +84,21 @@ transform: scale(1.05);
 
 }
 
-.article h4 {
-    display:inline-block;
-    padding-left: 5%;
-}
 
-.article h4:hover {
-text-decoration: underline;
-}
 
 .news{
     font-size: 1.4em;
+
+}
+
+.news h4{
+    display:inline-block;
+    padding-left: 5%;
+    border-bottom: 1px gray dotted;
+}
+.news h4:hover{
+    transition: 3s;
+transform: scale(1.1);
 
 }
 .news ul {
