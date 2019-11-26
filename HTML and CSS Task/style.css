@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .navList {
     list-style-type: none;
     margin: 0;
@@ -58,29 +59,38 @@ body {
 }
 .navList li.search {
     margin-left: auto;
+    padding-right: 15vh;
 }
 .navList a:not(.logo) {
     text-decoration: none;
     color:white;
     display: block;
 }
+
+.navList li .burgerMenu {
+    display: none;
+}
+
 .article .filter {
     border-top: none;
     color: #737373;
     display: flex;
 }
+
 .article .filter h3 {
     font-family: 'Work Sans',sans-serif;
     color:#737373;
 }
+
 .article {
     overflow: hidden;
     display: grid;
     grid-template-columns: auto auto auto;
     font: 700 16px/24px Merriweather,serif;
-    margin-left: 5vh;
-    margin-right: 5vh ;
+    margin-left: 10vh;
+    margin-right: 8vh ;
 }
+
 .art {
     border-top: #333 1px solid;
     padding-top: 2vh;
@@ -91,12 +101,12 @@ body {
     box-sizing: border-box;
 
 }
+
 .news {
     border-top: #333 1px solid;
     padding-top: 2vh;
     grid-column: 3/4;
 }
-
 
 .art img {
     width: 100%;
@@ -147,9 +157,11 @@ body {
 }
 .news h3{
     display:inline-block;
-    margin-left: 5vh;
+    margin-left: 10vh;
     text-align: center;
     border-bottom: 1px gray dotted;
+    font:600 2vh Work Sans,sans-serif;
+    color:#737373;
 }
 .news h3:hover{
     transition: 3s;
@@ -195,4 +207,71 @@ body {
     text-align-last:center;
     color:gray;
     border: none;
+}
+
+select:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 992px) {
+   
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+   .article{
+    display: grid;
+    padding:0;
+    margin:0;
+} 
+   .art {
+    grid-column:1/2;
+    padding-right: 0;
+}
+    .news{
+        display: none;
+    }
+    .art img {
+        transition: 5s;
+        object-fit: inherit;
+  }
+
+  .adsSpace{
+      display: none;
+  }
+
+  .navList img {
+    box-sizing: border-box;
+    height: 2.5em;
+    padding:0;
+    margin:0;
+}
+
+  .navList {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+  }
+
+  .navList li {
+      padding:0;
+      margin:0;
+  }
+
+  .navList li .burgerMenu {
+      display: flex;
+      margin-left: auto;
+      padding-right: 1vh;
+      }
+
+  .navList li.search{
+      display: none;
+  }
+
+  .navList a:not(.logo):not(.burgerMenu){
+      display: none;
+  }
+
 }
