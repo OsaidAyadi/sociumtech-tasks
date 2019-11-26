@@ -13,11 +13,13 @@ body {
     background-color: #181716;
     font-family: 'Work Sans', sans-serif;
     position: sticky;
+    position: -webkit-sticky;
+    top: 0;
     display: flex;
     flex-flow: row nowrap;
     align-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
 }
 
 .adsSpace {
@@ -27,7 +29,6 @@ body {
     height: auto;
     justify-content:center;
     width: 100%;
-    padding:12px;
 }
 .navList img {
     box-sizing:border-box;
@@ -112,6 +113,7 @@ body {
     width: 100%;
     transition: 5s;
     object-fit: cover;
+    max-height: 600px;
 }
 
 .art img:hover{
@@ -155,6 +157,12 @@ body {
     position: relative;
     width: 100%;
 }
+
+.counterDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
 .news h3{
     display:inline-block;
     margin-left: 10vh;
@@ -163,6 +171,27 @@ body {
     font:600 2vh Work Sans,sans-serif;
     color:#737373;
 }
+
+.reader{
+    display:inline-block;
+    text-align: left;
+    font:600 2vh Work Sans,sans-serif;
+    color:#737373;
+    margin-left: 6vh;
+    margin-top: -2vh;
+}
+
+.reader p {
+    font:200 1.7vh Work Sans,sans-serif;
+}
+
+.readerImage{
+    display:inline-block;
+    font:600 2vh Work Sans,sans-serif;
+    color:#737373;
+    padding-right: 15vh;
+}
+
 .news h3:hover{
     transition: 3s;
     transform: scale(1.2);
@@ -262,9 +291,8 @@ select:focus{
 
   .navList li .burgerMenu {
       display: flex;
-      margin-left: auto;
-      padding-right: 1vh;
       }
+      
 
   .navList li.search{
       display: none;
