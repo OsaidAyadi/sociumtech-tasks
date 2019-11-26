@@ -215,11 +215,6 @@ body {
     font: 700 16px/24px Merriweather,serif;
 }
 .news a {
-   /* font: 700 16px/24px Merriweather,serif;
-    display: block;
-    text-decoration: none;
-    height: auto;
-    */
     font: 700 16px/24px Merriweather,serif;
     max-height: 48px;
     overflow-y: hidden;

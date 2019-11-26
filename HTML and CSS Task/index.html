@@ -15,7 +15,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
 
-<body>
+<body onload="start()">
 
     <ul class="navList">
         <li><a class="burgerMenu"><i class="fa fa-bars"></i></a></li>
@@ -64,7 +64,7 @@
                 <h3>Editors' Picks</h3></div>
             <br/>
             <div class="counterDiv">
-            <div class="reader"><h2>58,871<p>READERS</p></h2></div>
+            <div class="reader"><h2 id="number">5814</h2><p>READERS</p></div>
             <div class="readerImage"><img src="img/download.png" alt="downloaded"></div>
             </div>
             <br/>
@@ -77,6 +77,30 @@
         </div>
 
     </div>
+
+
+    <script>
+    
+
+    var i = 5814;
+    var num = document.getElementById('number');
+
+    function start() {
+    setInterval(increase, 1000);
+    }
+
+    function increase() {
+        if (i < 100000) {
+        i++;
+        num.innerText = i;
+        }
+        else{
+            return 0;
+        }
+        console.log('---')
+    }
+    
+    </script>
 
 </body>
 
