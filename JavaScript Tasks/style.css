@@ -1,0 +1,15 @@
+#date__demo{
+    color:red;
+    text-align: center;
+}
+
+h5:hover{
+    cursor: pointer;
+}
+
+.laptopContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+
+}
