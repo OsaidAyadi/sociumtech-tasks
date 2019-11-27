@@ -181,6 +181,11 @@ body {
     margin-top: -2vh;
 }
 
+.reader #number {
+    animation: fadeInFromNone 5s ease-out;
+
+}
+
 .reader p {
     font:200 1.7vh Work Sans,sans-serif;
 }
@@ -280,7 +285,7 @@ select:focus{
   }
 
   .navList li {
-      padding:0;
+      padding-left:10px;
       margin:0;
   }
 
@@ -297,4 +302,22 @@ select:focus{
       display: none;
   }
 
+}
+
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
 }
