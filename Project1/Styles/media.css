@@ -1,0 +1,100 @@
+@media only screen and (max-width: 600px) {
+    .footer-col {
+        display: block;
+    }
+    .footer-2-lists {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .prop:hover~.prop-options,
+    .prop-options:hover {
+        display: block;
+    }
+    .Main:hover~.main-options,
+    .main-options:hover {
+        display: block;
+    }
+    .navBar__items a:hover {
+        text-decoration: none;
+        color: #24355a;
+    }
+    .category-list:hover~.categories-child,
+    .categories-child:hover {
+        display: block;
+    }
+    .footer-items li a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .nav {
+        width: calc(100% - 60px);
+    }
+    .navBar__items {
+        display: none;
+    }
+    .navBar__items.itemsJS li:not(.full-page-menu) {
+        display: block;
+    }
+    .header-menu-active {
+        background-color: white;
+        box-shadow: 0 9px 20px 0 rgba(165, 165, 165, 0.5);
+        display: block;
+        left: 0;
+        position: absolute;
+        top: 90px;
+        width: 100%;
+    }
+    .header-menu-active li {
+        display: flex;
+    }
+    .header-menu-active li i {
+        background-color: #f7395a;
+        color: white;
+        position: absolute;
+        right: 20px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-options,
+    .prop-options {
+        box-shadow: none;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0;
+        position: relative;
+    }
+    .main-options,
+    .prop-options {
+        display: none;
+    }
+    .main-options a,
+    .prop-options a {
+        font: 400 16px/18px 'Nunito', Arial, Helvetica, sans-serif;
+    }
+    .navBar__items.itemsJS #burgerlist {
+        position: absolute;
+        top: 0;
+        right: 100;
+    }
+    i.fas.fa-caret-down {
+        background-color: #575757;
+        border-radius: 10px;
+        color: #fff;
+        line-height: 20px;
+        padding: 0 10px;
+    }
+    .navBar__items .fas {
+        background-color: #f7395a;
+        border-radius: 10px;
+        color: #fff;
+        line-height: 40px;
+        padding: 0 10px;
+    }
+}
+
+1
