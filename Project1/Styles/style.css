@@ -17,16 +17,13 @@ body {
 }
 
 .navBar__items {
-    justify-items: center;
     margin: 0;
     padding: 0;
 }
 
 .navBar__items li {
     display: inline-block;
-    list-style-type: none;
     padding: 14px;
-    text-decoration: none;
 }
 
 .navBar__items a {
@@ -38,7 +35,6 @@ body {
 .main-options {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
-    border-radius: 0 0 4px 4px;
     box-shadow: 0 9px 20px 0 rgba(165, 165, 165, 0.5);
     color: #24355a;
     display: none;
@@ -46,18 +42,22 @@ body {
     list-style-type: none;
     position: absolute;
     width: 220px;
+    padding: 0;
 }
 
 .main-options li {
     display: block;
-    margin: 24px;
-    padding: 0;
+    padding: 14px 18px;
+    border-bottom: 1px solid #eee;
+}
+
+.main-options li:last-child {
+    border-bottom: none;
 }
 
 .prop-options {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
-    border-radius: 0 0 4px 4px;
     box-shadow: 0 9px 20px 0 rgba(165, 165, 165, 0.5);
     color: #24355a;
     display: none;
@@ -65,12 +65,13 @@ body {
     list-style-type: none;
     position: absolute;
     width: 220px;
+    padding: 0;
 }
 
 .prop-options li {
     display: block;
-    padding: 0;
-    margin: 24px;
+    padding: 14px 18px;
+    border-bottom: 1px solid #eee;
 }
 
 .fas.fa-angle-right {
