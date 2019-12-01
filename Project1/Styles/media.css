@@ -50,6 +50,12 @@
     .navBar__items.itemsJS li:not(.full-page-menu) {
         display: block;
     }
+    .hamburger{
+        background-color: #f7395a;
+        padding: 5px;
+        border-radius: 5px;
+        color:white;
+    }
     .header-menu-active {
         transition: all .2s;
         left: 0px;
