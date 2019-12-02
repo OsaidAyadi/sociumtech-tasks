@@ -6,7 +6,18 @@
         display: block;
     }
 
-    
+        .explore-section .row{
+            display: flex;
+            flex-flow: column nowrap;
+            width: 100%;
+            margin:0 auto;
+    }
+
+    .explore-section .w-100{
+        display: none;
+    }
+
+
 }
 
 
@@ -113,6 +124,16 @@
 
     .image-div-three{
         display: flex;
+    }
+
+    .explore-section .col{
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 0 50%;
+    }
+
+    .explore-section .w-100{
+        display: none;
     }
 
 

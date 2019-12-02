@@ -270,9 +270,6 @@ body {
     display: block;
 }
 
-/* .image-1-col-1,.image-2-col-1,.image-3-col-1,.image-1-col-2,.image-2-col-3{
-    height: calc(100% / 3);
-} */
 
 .image-div-one{
     position: relative;
@@ -325,6 +322,65 @@ body {
     font: 400 13px/13px 'Open Sans', sans-serif;
 }
 
-.explore-section{
-    padding: 80px 0;
+.image-caption-center{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding: 0!important;
+    padding-left: 10!important;
+    z-index: 110;
+
+}
+
+.image-caption-center h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.image-caption-center h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image-caption-center span {
+    font: 400 13px/13px 'Open Sans', sans-serif;
+}
+
+
+.brightness-cover{
+    position: absolute;
+    background: black;
+    opacity: 0.4;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    margin: 15px 0;
+    z-index: 10;
+    top:0;
+    transition:all .5s;
+}
+
+
+.brightness-cover:hover {
+    position: absolute;
+    background: black;
+    opacity: 0.6;
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    z-index: 10;
+    bottom: 24px;
+    right: 37px;
+    border-radius: 10px;
+    margin:0;
+    top: 41px;
+}
+
+.explore-section .col{
+    transition: all .5s;
+}
+
+.explore-section .col:hover{
+    transform: scale(1.05);
 }
