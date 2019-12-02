@@ -6,6 +6,27 @@
     width: 100%;
   }
 
+.section-title h2 {
+    color: #24355a;
+    margin: 0 0 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+
+.recommended-section{
+    padding: 80px 0;
+    background-color: #f7f8f9;
+}
+
+.section-title p {
+    font-size: 18px;
+    margin-top: 1px;
+    line-height: 1.5;
+    color:#767676;
+}
 
 .dash-section{
     width: 30px;
@@ -75,4 +96,67 @@
     width: 100%;
     border-radius: 7px;
     position: relative;
+}
+
+.clients-section.container .col{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: #333;
+    box-shadow: 0 4px 10px 0 rgba(165, 165, 165, 0.5);
+    margin: 0 15px;
+    padding: 40px 0;
+}
+
+.fa.fa-quote-right{
+    color:orange;
+    font-size: 2.5em;
+    margin:0 auto;
+}
+
+.clients-section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+}
+
+section.client-section{
+    background-color: #f7f8f9;
+    padding: 80px 0;
+}
+
+.clients-section q{
+    color: #484848;
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+}
+
+.client-name-location{
+    text-align: center;
+}
+
+.client-name-location h3 {
+    color:#24355a;
+    margin: 8px 0;
+    font-weight: 700;
+    line-height: 1.5;
+    font-style: normal;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+
+.client-name-location h4 {
+    color:#767676;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+
+.clients-section img {
+    border-radius: 50%;
 }

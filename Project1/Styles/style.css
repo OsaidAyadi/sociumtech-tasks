@@ -166,13 +166,6 @@ body {
 }
 
 
-/* .footer-items li a::before:not(.soicalmedia) {
-    top: 0;
-    left: 0;
-    content: 'â€¢';
-    font-size: 6px;
-    position: absolute;
-} */
 
 .footer-items h3,
 .news h3 {
@@ -377,10 +370,15 @@ body {
     top: 41px;
 }
 
+
 .explore-section .col{
     transition: all .5s;
 }
 
 .explore-section .col:hover{
     transform: scale(1.05);
+}
+
+.main-header{
+    padding: 80px 0;
 }

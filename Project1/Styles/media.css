@@ -17,6 +17,14 @@
         display: none;
     }
 
+  .clients-section .col{
+      display: none;
+  }
+  .clients-section .col.mobile-client{
+      display: block;
+  }
+
+
 
 }
 
