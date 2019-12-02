@@ -1,162 +1,140 @@
 .section-title{
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     width: 100%;
-  }
-
+}
 .section-title h2 {
     color: #24355a;
-    margin: 0 0 8px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
     font-weight: 700;
     line-height: 1.5;
-    font-style: normal;
+    margin: 0 0 8px;
     text-transform: capitalize;
-    font-family: 'Nunito', sans-serif;
 }
-
 .recommended-section{
-    padding: 80px 0;
     background-color: #f7f8f9;
+    padding: 80px 0;
 }
-
 .section-title p {
-    font-size: 18px;
-    margin-top: 1px;
-    line-height: 1.5;
     color:#767676;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 1px;
 }
-
 .dash-section{
-    width: 30px;
+    background-color: #f7395a;
+    border-radius: 2px;
     height: 4px;
     margin-left: -15px;
-    border-radius: 2px;
-    background-color: #f7395a;
     margin-top:5px;
+    width: 30px;
 }
-
 .section-description{
-    display: block;
-    text-align: center;
     color:#484848;
+    display: block;
     font-size: 16px;
+    text-align: center;
 }
-
 .recommended-btn{
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     width: 100%;
 }
-
 .recommended-content{
     display: flex;
 }
-
 .recommended-content div{
     padding-bottom: 15px;
     padding-top: 15px ;
 }
-
 .recommended-content img {
-    filter: brightness(0.8);
-    transition:all .5s;
     border-radius: 7px;
+    filter: brightness(0.8);
     overflow: hidden;
+    transition:all .5s;
     width: 100%;
 }
-
 .recommended-content img:hover {
     filter: brightness(0.5);
-    transform: scale(1.05);
     overflow: hidden;
+    transform: scale(1.05);
 }
-
 .recommended-content img:hover ~ .image-caption {
     border-left: solid #f7395a 3px;
     border-radius: 2px;
     margin-left: 20px;
 }
-
 .explore-section{
-    padding: 80px 0;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    padding: 80px 0;
     text-align: center;
-}
-
-.explore-section img{
-    padding: 15px 0;
-    transition:all .5s;
-    overflow: hidden;
     width: 100%;
-    border-radius: 7px;
-    position: relative;
 }
-
+.explore-section img{
+    border-radius: 7px;
+    overflow: hidden;
+    padding: 15px 0;
+    position: relative;
+    transition:all .5s;
+    width: 100%;
+}
 .clients-section.container .col{
-    border-radius: 10px;
     background: #fff;
+    border-radius: 10px;
     box-shadow: #333;
     box-shadow: 0 4px 10px 0 rgba(165, 165, 165, 0.5);
     margin: 0 15px;
     padding: 40px 0;
 }
-
 .fa.fa-quote-right{
     color:orange;
     font-size: 2.5em;
     margin:0 auto;
 }
-
 .clients-section{
+    align-items: center;
     display: flex;
     flex-flow: column;
-    align-items: center;
     justify-items: center;
 }
-
 section.client-section{
     background-color: #f7f8f9;
     padding: 80px 0;
 }
-
 .clients-section q{
     color: #484848;
     font-size: 14px;
-    line-height: 1.5;
     font-style: italic;
+    line-height: 1.5;
     text-align: center;
 }
-
 .client-name-location{
     text-align: center;
 }
-
 .client-name-location h3 {
     color:#24355a;
-    margin: 8px 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-style: normal;
     font-weight: 700;
     line-height: 1.5;
-    font-style: normal;
-    font-size: 17px;
+    margin: 8px 0;
     text-transform: capitalize;
-    font-family: 'Nunito', sans-serif;
 }
-
 .client-name-location h4 {
     color:#767676;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
     font-weight: 400;
     line-height: 1.5;
-    font-size: 17px;
     text-transform: capitalize;
-    font-family: 'Nunito', sans-serif;
 }
-
 .clients-section img {
     border-radius: 50%;
 }
