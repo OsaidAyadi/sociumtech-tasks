@@ -380,5 +380,14 @@ body {
 }
 
 .main-header{
-    padding: 80px 0;
+    /* padding: 80px 0; */
+    width: 100%;
+}
+
+.main-header img {
+    box-sizing: border-box;
+    width:100%;
+    display: block;
+    position: relative;
+    height: auto;
 }
