@@ -269,3 +269,62 @@ body {
 .main-options.mainList {
     display: block;
 }
+
+/* .image-1-col-1,.image-2-col-1,.image-3-col-1,.image-1-col-2,.image-2-col-3{
+    height: calc(100% / 3);
+} */
+
+.image-div-one{
+    position: relative;
+    border-radius: 100px;
+
+}
+
+.image-div-three{
+    position: relative;
+}
+
+.btn-view-all{
+    border: 2px solid #f7395a;
+    font: 700 13px/42px 'Nunito', sans-serif;
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 4px;
+    width: 160px;
+    text-align: center;
+    color: #484848;
+}
+
+.btn-view-all:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #f7395a;
+}
+
+.image-caption{
+    bottom: 0;
+    margin: 20px;
+    position: absolute;
+    color:white;
+    padding: 0!important;
+    padding-left: 10!important;
+}
+
+.image-caption h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.image-caption h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image-caption span {
+    font: 400 13px/13px 'Open Sans', sans-serif;
+}
+
+.explore-section{
+    padding: 80px 0;
+}

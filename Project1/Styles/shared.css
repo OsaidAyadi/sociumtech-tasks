@@ -1,0 +1,60 @@
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+
+.dash-section{
+    width: 30px;
+    height: 4px;
+    margin-left: -15px;
+    border-radius: 2px;
+    background-color: #f7395a;
+    margin-top:5px;
+}
+
+.section-description{
+    display: block;
+    text-align: center;
+    color:#484848;
+    font-size: 16px;
+}
+
+.recommended-btn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.recommended-content{
+    display: flex;
+}
+
+.recommended-content div{
+    padding: 15px;
+}
+
+.recommended-content img {
+    filter: brightness(0.8);
+    transition:all .5s;
+    border-radius: 11px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.recommended-content img:hover {
+    filter: brightness(0.5);
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+.recommended-content img:hover ~ .image-caption {
+    border-left: solid #f7395a 3px;
+    border-radius: 2px;
+    margin-left: 20px;
+}

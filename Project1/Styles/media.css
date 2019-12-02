@@ -5,7 +5,11 @@
     .footer-2-lists {
         display: block;
     }
+
+    
 }
+
+
 
 @media screen and (min-width: 1000px) {
     .prop:hover~.prop-options,
@@ -106,4 +110,10 @@
         line-height: 40px;
         padding: 0 10px;
     }
+
+    .image-div-three{
+        display: flex;
+    }
+
+
 }
